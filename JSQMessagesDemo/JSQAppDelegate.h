@@ -17,7 +17,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <Parse.h>
 @interface JSQAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

@@ -17,6 +17,7 @@
 //
 
 #import "JSQMessages.h"
+#import <Parse/Parse.h>
 
 @class JSQDemoViewController;
 
