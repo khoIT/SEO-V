@@ -14,5 +14,6 @@
 
 @property (strong, nonatomic) NSMutableArray *companies;
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

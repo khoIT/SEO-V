@@ -56,7 +56,6 @@
     
 }
 
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([sender isKindOfClass:[UITableViewCell class]]){
         if ([segue.destinationViewController isKindOfClass:[OneCompanyViewController class]]){
@@ -64,6 +63,7 @@
             NSIndexPath *index = [self.tableView indexPathForCell:sender];
             Company *selectedCompany = self.companies[index.row];
             nextViewController.company = selectedCompany;
+            NSLog(@"%@", nextViewController.company);
             [self.tableView deselectRowAtIndexPath:index animated:NO];
         }
         
@@ -82,7 +82,7 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     if (cell==nil){
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     //configure the cell
     

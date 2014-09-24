@@ -16,6 +16,7 @@
     
     self.textView.editable = NO;
     self.textView.text = self.company.info ;
+    NSLog(@"%@", self.company.info);
     
     
 }

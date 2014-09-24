@@ -8,7 +8,7 @@
         <scene sceneID="hCV-XW-f6W">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="gaj-dS-lU9" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="59a-C6-R20">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="-2215" y="1348"/>
         </scene>
-        <!--View Controller-->
+        <!--Company View Controller - Employers Information-->
         <scene sceneID="rsq-xl-WfG">
             <objects>
-                <viewController id="OcJ-Hs-N2I" sceneMemberID="viewController">
+                <viewController id="OcJ-Hs-N2I" customClass="CompanyViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qHm-1a-rfq"/>
                         <viewControllerLayoutGuide type="bottom" id="7RB-I8-qAm"/>
@@ -122,6 +122,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="Cqa-od-OBY">
+                                        <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cqa-od-OBY" id="bLJ-i4-Hss">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="j6V-JE-vaR" kind="push" id="akH-J3-STN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="OcJ-Hs-N2I" id="P3g-M0-yOW"/>
                                     <outlet property="delegate" destination="OcJ-Hs-N2I" id="ewZ-Yt-7Hl"/>
@@ -130,11 +143,51 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Qt5-Pg-eJk"/>
+                    <navigationItem key="navigationItem" title="Employers Information" id="Qt5-Pg-eJk"/>
+                    <connections>
+                        <outlet property="tableView" destination="vNk-2o-gaJ" id="WrR-Io-LVM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pKq-08-Baf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2134" y="2145"/>
+        </scene>
+        <!--One Company View Controller-->
+        <scene sceneID="jDV-Ra-s7A">
+            <objects>
+                <viewController id="j6V-JE-vaR" customClass="OneCompanyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Obk-IG-ZPH"/>
+                        <viewControllerLayoutGuide type="bottom" id="B80-kU-GOz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iON-rP-df7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="abD-ts-wtu">
+                                <rect key="frame" x="0.0" y="149" width="320" height="419"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I4a-3G-cH0">
+                                <rect key="frame" x="20" y="63" width="280" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ics-GA-WzH"/>
+                    <connections>
+                        <outlet property="imageView" destination="I4a-3G-cH0" id="FLJ-C3-cZq"/>
+                        <outlet property="textView" destination="abD-ts-wtu" id="eaA-xN-1lM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C0x-Xx-ZNF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1685" y="2145"/>
         </scene>
         <!--Navigation Controller - Item-->
         <scene sceneID="MML-UN-DFS">

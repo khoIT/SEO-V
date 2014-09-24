@@ -11,10 +11,11 @@
 
 @interface OneCompanyViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextView *textView;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 @property (weak, nonatomic) Company *company;
 
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end
