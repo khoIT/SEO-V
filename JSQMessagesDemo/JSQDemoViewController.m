@@ -20,7 +20,7 @@
 
 
 static NSString * const kJSQDemoAvatarNameCook = @"Tim Cook";
-static NSString * const kJSQDemoAvatarNameJobs = @"Jobs";
+static NSString * const kJSQDemoAvatarNameJobs = @"SEO-V";
 static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
 
 

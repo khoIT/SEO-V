@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:JSQMessagesDemo/MapViewController.h">
-   </FileRef>
-   <FileRef
-      location = "group:JSQMessagesDemo/MapViewController.m">
-   </FileRef>
-   <FileRef
       location = "group:JSQMessages.xcodeproj">
    </FileRef>
    <FileRef
