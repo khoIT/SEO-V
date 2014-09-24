@@ -47,7 +47,6 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
 //                     nil];
 //    
     //load messages from parse
-    self.messages = [NSMutableArray array];
     
     PFQuery *query = [PFQuery queryWithClassName:@"Announcement"];
     [query orderByAscending:@"seo_id"];
@@ -135,9 +134,9 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
 {
     [super viewDidLoad];
     
-    self.title = @"JSQMessages";
+    self.title = @"Messages";
     
-    self.sender = @"Jesse Squires";
+    self.sender = @"Khoi";
     
     [self setupTestModel];
     
@@ -221,7 +220,7 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
-        NSMutableArray *copyAvatars = [[self.avatars allKeys] mutableCopy];
+         NSMutableArray *copyAvatars = [[self.avatars allKeys] mutableCopy];
         [copyAvatars removeObject:self.sender];
         copyMessage.sender = [copyAvatars objectAtIndex:arc4random_uniform((int)[copyAvatars count])];
         
@@ -233,7 +232,7 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
          *  3. Call `finishReceivingMessage`
          */
         [JSQSystemSoundPlayer jsq_playMessageReceivedSound];
-        [self.messages addObject:copyMessage];
+        //[self.messages addObject:copyMessage];
         [self finishReceivingMessage];
     });
 }

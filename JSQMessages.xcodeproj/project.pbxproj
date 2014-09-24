@@ -101,6 +101,11 @@
 		D6A0112C19D31D0B001B81FB /* map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A0112619D31D0B001B81FB /* map-icon.png */; };
 		D6A0112D19D31D0B001B81FB /* map-icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A0112719D31D0B001B81FB /* map-icon2.png */; };
 		D6A0112E19D31D0B001B81FB /* message-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A0112819D31D0B001B81FB /* message-icon.png */; };
+		D6A0113219D31E52001B81FB /* GeoPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0113119D31E52001B81FB /* GeoPointAnnotation.m */; };
+		D6A0113819D31F5A001B81FB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0113719D31F5A001B81FB /* MapViewController.m */; };
+		D6A0113B19D320B1001B81FB /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0113A19D320B1001B81FB /* CompanyViewController.m */; };
+		D6A0113E19D320DD001B81FB /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0113D19D320DD001B81FB /* Company.m */; };
+		D6A0114119D3211B001B81FB /* OneCompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0114019D3211B001B81FB /* OneCompanyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,6 +247,16 @@
 		D6A0112619D31D0B001B81FB /* map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-icon.png"; sourceTree = SOURCE_ROOT; };
 		D6A0112719D31D0B001B81FB /* map-icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-icon2.png"; sourceTree = SOURCE_ROOT; };
 		D6A0112819D31D0B001B81FB /* message-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message-icon.png"; sourceTree = SOURCE_ROOT; };
+		D6A0113019D31E52001B81FB /* GeoPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoPointAnnotation.h; path = JSQMessagesDemo/GeoPointAnnotation.h; sourceTree = "<group>"; };
+		D6A0113119D31E52001B81FB /* GeoPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeoPointAnnotation.m; path = JSQMessagesDemo/GeoPointAnnotation.m; sourceTree = "<group>"; };
+		D6A0113619D31F5A001B81FB /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = JSQMessagesDemo/MapViewController.h; sourceTree = SOURCE_ROOT; };
+		D6A0113719D31F5A001B81FB /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = JSQMessagesDemo/MapViewController.m; sourceTree = SOURCE_ROOT; };
+		D6A0113919D320B1001B81FB /* CompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanyViewController.h; path = JSQMessagesDemo/CompanyViewController.h; sourceTree = SOURCE_ROOT; };
+		D6A0113A19D320B1001B81FB /* CompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanyViewController.m; path = JSQMessagesDemo/CompanyViewController.m; sourceTree = SOURCE_ROOT; };
+		D6A0113C19D320DD001B81FB /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Company.h; path = JSQMessagesDemo/Company.h; sourceTree = SOURCE_ROOT; };
+		D6A0113D19D320DD001B81FB /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Company.m; path = JSQMessagesDemo/Company.m; sourceTree = SOURCE_ROOT; };
+		D6A0113F19D3211B001B81FB /* OneCompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneCompanyViewController.h; path = JSQMessagesDemo/OneCompanyViewController.h; sourceTree = SOURCE_ROOT; };
+		D6A0114019D3211B001B81FB /* OneCompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneCompanyViewController.m; path = JSQMessagesDemo/OneCompanyViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -433,6 +448,7 @@
 		885D592018CBD13D00D77BB3 = {
 			isa = PBXGroup;
 			children = (
+				D6A0112F19D31E30001B81FB /* SEO */,
 				8816A64618E9250400111919 /* JSQMessagesViewController */,
 				885D593218CBD13D00D77BB3 /* JSQMessagesDemo */,
 				885D595418CBD13D00D77BB3 /* JSQMessagesTests */,
@@ -467,6 +483,14 @@
 		885D593218CBD13D00D77BB3 /* JSQMessagesDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6A0113919D320B1001B81FB /* CompanyViewController.h */,
+				D6A0113A19D320B1001B81FB /* CompanyViewController.m */,
+				D6A0113F19D3211B001B81FB /* OneCompanyViewController.h */,
+				D6A0114019D3211B001B81FB /* OneCompanyViewController.m */,
+				D6A0113C19D320DD001B81FB /* Company.h */,
+				D6A0113D19D320DD001B81FB /* Company.m */,
+				D6A0113619D31F5A001B81FB /* MapViewController.h */,
+				D6A0113719D31F5A001B81FB /* MapViewController.m */,
 				885D596418CBD2A600D77BB3 /* Images.xcassets */,
 				885D596518CBD2A600D77BB3 /* JSQAppDelegate.h */,
 				885D596618CBD2A600D77BB3 /* JSQAppDelegate.m */,
@@ -590,6 +614,15 @@
 				D6A0112819D31D0B001B81FB /* message-icon.png */,
 			);
 			name = Icon;
+			sourceTree = "<group>";
+		};
+		D6A0112F19D31E30001B81FB /* SEO */ = {
+			isa = PBXGroup;
+			children = (
+				D6A0113019D31E52001B81FB /* GeoPointAnnotation.h */,
+				D6A0113119D31E52001B81FB /* GeoPointAnnotation.m */,
+			);
+			name = SEO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -795,12 +828,15 @@
 				8816A6AB18E9250400111919 /* JSQMessagesCollectionViewFlowLayout.m in Sources */,
 				8816A6B518E9250400111919 /* JSQMessagesInputToolbar.m in Sources */,
 				88BC4D33190C6057002E5CC6 /* JSQMessagesLoadEarlierHeaderView.m in Sources */,
+				D6A0113B19D320B1001B81FB /* CompanyViewController.m in Sources */,
 				8816A6A318E9250400111919 /* UIImage+JSQMessages.m in Sources */,
+				D6A0113E19D320DD001B81FB /* Company.m in Sources */,
 				8816A6A918E9250400111919 /* JSQMessagesTimestampFormatter.m in Sources */,
 				8816A6B018E9250400111919 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
 				885D597318CBD2DC00D77BB3 /* main.m in Sources */,
 				8816A6A118E9250400111919 /* NSString+JSQMessages.m in Sources */,
 				8816A6B218E9250400111919 /* JSQMessagesCollectionViewCellOutgoing.m in Sources */,
+				D6A0113819D31F5A001B81FB /* MapViewController.m in Sources */,
 				88D1B0C71906045A00AFE162 /* JSQMessagesTypingIndicatorFooterView.m in Sources */,
 				44E73A51192D0B5B00D1C86F /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m in Sources */,
 				8816A6AC18E9250400111919 /* JSQMessagesCollectionViewLayoutAttributes.m in Sources */,
@@ -808,12 +844,14 @@
 				8816A6A818E9250400111919 /* JSQMessagesBubbleImageFactory.m in Sources */,
 				8816A6AD18E9250400111919 /* JSQMessage.m in Sources */,
 				8897FBF918CBF967004F59C3 /* JSQDemoViewController.m in Sources */,
+				D6A0113219D31E52001B81FB /* GeoPointAnnotation.m in Sources */,
 				8816A6AF18E9250400111919 /* JSQMessagesCollectionViewCell.m in Sources */,
 				885D596B18CBD2A600D77BB3 /* JSQTableViewController.m in Sources */,
 				8816A6B618E9250400111919 /* JSQMessagesLabel.m in Sources */,
 				88ADC6FC18F0999000FE0266 /* JSQMessagesKeyboardController.m in Sources */,
 				8816A6B418E9250400111919 /* JSQMessagesComposerTextView.m in Sources */,
 				8816A6AA18E9250400111919 /* JSQMessagesToolbarButtonFactory.m in Sources */,
+				D6A0114119D3211B001B81FB /* OneCompanyViewController.m in Sources */,
 				8816A6A418E9250400111919 /* UIView+JSQMessages.m in Sources */,
 				8816A6A718E9250400111919 /* JSQMessagesAvatarFactory.m in Sources */,
 			);

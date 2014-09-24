@@ -1,1 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?><Workspace version='1.0'><FileRef location='group:JSQMessages.xcodeproj'/><FileRef location='group:Pods/Pods.xcodeproj'/></Workspace>
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:JSQMessagesDemo/MapViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:JSQMessagesDemo/MapViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:JSQMessages.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
