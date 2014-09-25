@@ -137,6 +137,12 @@
 		D6A0113B19D320B1001B81FB /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0113A19D320B1001B81FB /* CompanyViewController.m */; };
 		D6A0113E19D320DD001B81FB /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0113D19D320DD001B81FB /* Company.m */; };
 		D6A0114119D3211B001B81FB /* OneCompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0114019D3211B001B81FB /* OneCompanyViewController.m */; };
+		D6CB23E119D49AC9002C625E /* demo_avatar_cook.png in Resources */ = {isa = PBXBuildFile; fileRef = D6CB23DF19D49AC9002C625E /* demo_avatar_cook.png */; };
+		D6CB23E219D49AC9002C625E /* demo_avatar_cook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6CB23E019D49AC9002C625E /* demo_avatar_cook@2x.png */; };
+		D6CB23E519D49AD5002C625E /* demo_avatar_jobs.png in Resources */ = {isa = PBXBuildFile; fileRef = D6CB23E319D49AD5002C625E /* demo_avatar_jobs.png */; };
+		D6CB23E619D49AD5002C625E /* demo_avatar_jobs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6CB23E419D49AD5002C625E /* demo_avatar_jobs@2x.png */; };
+		D6CB23E919D49AE5002C625E /* demo_avatar_woz.png in Resources */ = {isa = PBXBuildFile; fileRef = D6CB23E719D49AE5002C625E /* demo_avatar_woz.png */; };
+		D6CB23EA19D49AE5002C625E /* demo_avatar_woz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6CB23E819D49AE5002C625E /* demo_avatar_woz@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -319,6 +325,12 @@
 		D6A0113D19D320DD001B81FB /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Company.m; path = JSQMessagesDemo/Company.m; sourceTree = SOURCE_ROOT; };
 		D6A0113F19D3211B001B81FB /* OneCompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneCompanyViewController.h; path = JSQMessagesDemo/OneCompanyViewController.h; sourceTree = SOURCE_ROOT; };
 		D6A0114019D3211B001B81FB /* OneCompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneCompanyViewController.m; path = JSQMessagesDemo/OneCompanyViewController.m; sourceTree = SOURCE_ROOT; };
+		D6CB23DF19D49AC9002C625E /* demo_avatar_cook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_avatar_cook.png; sourceTree = SOURCE_ROOT; };
+		D6CB23E019D49AC9002C625E /* demo_avatar_cook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo_avatar_cook@2x.png"; sourceTree = SOURCE_ROOT; };
+		D6CB23E319D49AD5002C625E /* demo_avatar_jobs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_avatar_jobs.png; sourceTree = SOURCE_ROOT; };
+		D6CB23E419D49AD5002C625E /* demo_avatar_jobs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo_avatar_jobs@2x.png"; sourceTree = SOURCE_ROOT; };
+		D6CB23E719D49AE5002C625E /* demo_avatar_woz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_avatar_woz.png; sourceTree = SOURCE_ROOT; };
+		D6CB23E819D49AE5002C625E /* demo_avatar_woz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo_avatar_woz@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -570,6 +582,12 @@
 		885D593318CBD13D00D77BB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D6CB23E719D49AE5002C625E /* demo_avatar_woz.png */,
+				D6CB23E819D49AE5002C625E /* demo_avatar_woz@2x.png */,
+				D6CB23E319D49AD5002C625E /* demo_avatar_jobs.png */,
+				D6CB23E419D49AD5002C625E /* demo_avatar_jobs@2x.png */,
+				D6CB23DF19D49AC9002C625E /* demo_avatar_cook.png */,
+				D6CB23E019D49AC9002C625E /* demo_avatar_cook@2x.png */,
 				D63A9BF519D3264100C757B8 /* company logo */,
 				D6A0112219D31CF4001B81FB /* Icon */,
 				885D597418CBD2EB00D77BB3 /* InfoPlist.strings */,
@@ -779,7 +797,7 @@
 				ORGANIZATIONNAME = "Hexed Bits";
 				TargetAttributes = {
 					885D592818CBD13D00D77BB3 = {
-						DevelopmentTeam = 462693YXF2;
+						DevelopmentTeam = 2D8D87CSH4;
 					};
 					885D594C18CBD13D00D77BB3 = {
 						DevelopmentTeam = 5VRJU68BZ5;
@@ -827,12 +845,15 @@
 				D617003319D3494F00542E2F /* 30.png in Resources */,
 				D63A9C2519D3282900C757B8 /* 16.png in Resources */,
 				D63A9C1E19D3282900C757B8 /* 9.png in Resources */,
+				D6CB23E619D49AD5002C625E /* demo_avatar_jobs@2x.png in Resources */,
 				885D597718CBD43800D77BB3 /* Main.storyboard in Resources */,
 				D63A9C2019D3282900C757B8 /* 11.png in Resources */,
 				8816A69E18E9250400111919 /* message_received.aiff in Resources */,
 				D63A9C2419D3282900C757B8 /* 15.png in Resources */,
 				885D596918CBD2A600D77BB3 /* Images.xcassets in Resources */,
+				D6CB23E119D49AC9002C625E /* demo_avatar_cook.png in Resources */,
 				8816A6B318E9250400111919 /* JSQMessagesCollectionViewCellOutgoing.xib in Resources */,
+				D6CB23E919D49AE5002C625E /* demo_avatar_woz.png in Resources */,
 				8816A69418E9250400111919 /* bubble_min_tailless.png in Resources */,
 				8816A69D18E9250400111919 /* camera@2x.png in Resources */,
 				8816A69218E9250400111919 /* bubble_min.png in Resources */,
@@ -842,6 +863,7 @@
 				8816A69118E9250400111919 /* bubble@2x.png in Resources */,
 				8816A69018E9250400111919 /* bubble.png in Resources */,
 				8816A69918E9250400111919 /* bubble_stroked_tailless@2x.png in Resources */,
+				D6CB23EA19D49AE5002C625E /* demo_avatar_woz@2x.png in Resources */,
 				D63A9C2919D3282900C757B8 /* 20.png in Resources */,
 				88BC4D35190C6086002E5CC6 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				8816A69B18E9250400111919 /* bubble_tailless@2x.png in Resources */,
@@ -852,6 +874,7 @@
 				D63A9C2119D3282900C757B8 /* 12.png in Resources */,
 				D6A0112919D31D0B001B81FB /* company-icon.png in Resources */,
 				8816A69F18E9250400111919 /* message_sent.aiff in Resources */,
+				D6CB23E219D49AC9002C625E /* demo_avatar_cook@2x.png in Resources */,
 				D617002F19D3494F00542E2F /* 26.png in Resources */,
 				D617002E19D3494F00542E2F /* 25.png in Resources */,
 				8816A69518E9250400111919 /* bubble_min_tailless@2x.png in Resources */,
@@ -862,6 +885,7 @@
 				8816A69718E9250400111919 /* bubble_stroked@2x.png in Resources */,
 				D617002A19D3494F00542E2F /* 21.png in Resources */,
 				D63A9C1919D3282900C757B8 /* 4.png in Resources */,
+				D6CB23E519D49AD5002C625E /* demo_avatar_jobs.png in Resources */,
 				D617003019D3494F00542E2F /* 27.png in Resources */,
 				8816A6A618E9250400111919 /* JSQMessagesViewController.xib in Resources */,
 				8816A69618E9250400111919 /* bubble_stroked.png in Resources */,
@@ -1140,14 +1164,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSQMessagesDemo/SEO-V-Prefix.pch";
 				INFOPLIST_FILE = "JSQMessagesDemo/SEO-V-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a605d66c-9f5d-44a3-8f0b-97f4aeef9488";
+				PROVISIONING_PROFILE = "7ca68cb1-6d73-4e94-bef4-5240fbe65645";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1158,14 +1183,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Khoi Tran (2D8D87CSH4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Khoi Tran (2D8D87CSH4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSQMessagesDemo/SEO-V-Prefix.pch";
 				INFOPLIST_FILE = "JSQMessagesDemo/SEO-V-Info.plist";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a605d66c-9f5d-44a3-8f0b-97f4aeef9488";
+				PROVISIONING_PROFILE = "7ca68cb1-6d73-4e94-bef4-5240fbe65645";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
