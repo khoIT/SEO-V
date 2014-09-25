@@ -84,7 +84,7 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     //configure the cell
-    
+    [cell addSubview:self.labelText];
     Company *comp = [companies objectAtIndex:indexPath.row];
     cell.textLabel.text = comp.name;
     return cell;

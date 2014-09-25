@@ -90,12 +90,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zop-kX-13J">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zop-kX-13J">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zop-kX-13J" secondAttribute="bottom" id="501-IH-ICC"/>
+                            <constraint firstItem="zop-kX-13J" firstAttribute="top" secondItem="kuY-CW-a6c" secondAttribute="top" id="cW5-df-qTi"/>
+                            <constraint firstItem="zop-kX-13J" firstAttribute="leading" secondItem="kuY-CW-a6c" secondAttribute="leading" id="gZc-oL-nXi"/>
+                            <constraint firstAttribute="trailing" secondItem="zop-kX-13J" secondAttribute="trailing" id="rxt-8g-ezm"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Treasure hunt this summer!" id="isI-27-0De"/>
                     <connections>
@@ -118,7 +124,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="vNk-2o-gaJ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="vNk-2o-gaJ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -142,6 +148,12 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vNk-2o-gaJ" firstAttribute="leading" secondItem="iJL-xu-xB7" secondAttribute="leading" id="5PV-A3-rIh"/>
+                            <constraint firstAttribute="bottom" secondItem="vNk-2o-gaJ" secondAttribute="bottom" id="hfM-Jk-iPO"/>
+                            <constraint firstAttribute="trailing" secondItem="vNk-2o-gaJ" secondAttribute="trailing" id="tLf-F3-Qed"/>
+                            <constraint firstItem="vNk-2o-gaJ" firstAttribute="top" secondItem="iJL-xu-xB7" secondAttribute="top" id="yG3-8L-wyJ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Employers Information" id="Qt5-Pg-eJk"/>
                     <connections>
