@@ -4,4 +4,4 @@ pod 'JSQSystemSoundPlayer'
 pod 'OCMock'
 pod 'Parse'
 
-link_with 'JSQMessages'
+link_with 'SEO-V'

@@ -218,13 +218,13 @@
 		8816A68E18E9250400111919 /* JSQMessagesToolbarContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesToolbarContentView.m; sourceTree = "<group>"; };
 		8816A68F18E9250400111919 /* JSQMessagesToolbarContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSQMessagesToolbarContentView.xib; sourceTree = "<group>"; };
 		884F08CB19B2E713008DE64D /* JSQMessagesCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesCollectionViewDataSource.h; sourceTree = "<group>"; };
-		885D592918CBD13D00D77BB3 /* JSQMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSQMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885D592918CBD13D00D77BB3 /* SEO-V.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SEO-V.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		885D592C18CBD13D00D77BB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		885D592E18CBD13D00D77BB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		885D593018CBD13D00D77BB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		885D594D18CBD13D00D77BB3 /* JSQMessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSQMessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885D594D18CBD13D00D77BB3 /* SEO-VTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SEO-VTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		885D594E18CBD13D00D77BB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		885D595618CBD13D00D77BB3 /* JSQMessagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSQMessagesTests-Info.plist"; sourceTree = "<group>"; };
+		885D595618CBD13D00D77BB3 /* SEO-VTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SEO-VTests-Info.plist"; sourceTree = "<group>"; };
 		885D595818CBD13D00D77BB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		885D596418CBD2A600D77BB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JSQMessagesDemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		885D596518CBD2A600D77BB3 /* JSQAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSQAppDelegate.h; path = JSQMessagesDemo/JSQAppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -232,8 +232,8 @@
 		885D596718CBD2A600D77BB3 /* JSQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSQTableViewController.h; path = JSQMessagesDemo/JSQTableViewController.h; sourceTree = SOURCE_ROOT; };
 		885D596818CBD2A600D77BB3 /* JSQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSQTableViewController.m; path = JSQMessagesDemo/JSQTableViewController.m; sourceTree = SOURCE_ROOT; };
 		885D596D18CBD2BF00D77BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = JSQMessagesDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		885D596F18CBD2DC00D77BB3 /* JSQMessages-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JSQMessages-Info.plist"; path = "JSQMessagesDemo/JSQMessages-Info.plist"; sourceTree = SOURCE_ROOT; };
-		885D597018CBD2DC00D77BB3 /* JSQMessages-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JSQMessages-Prefix.pch"; path = "JSQMessagesDemo/JSQMessages-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		885D596F18CBD2DC00D77BB3 /* SEO-V-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SEO-V-Info.plist"; path = "../JSQMessagesDemo/SEO-V-Info.plist"; sourceTree = "<group>"; };
+		885D597018CBD2DC00D77BB3 /* SEO-V-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SEO-V-Prefix.pch"; path = "../JSQMessagesDemo/SEO-V-Prefix.pch"; sourceTree = "<group>"; };
 		885D597118CBD2DC00D77BB3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = JSQMessagesDemo/main.m; sourceTree = SOURCE_ROOT; };
 		885D597518CBD2EB00D77BB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = JSQMessagesDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		8897FBF318CBF1B3004F59C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -523,8 +523,8 @@
 		885D592A18CBD13D00D77BB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				885D592918CBD13D00D77BB3 /* JSQMessages.app */,
-				885D594D18CBD13D00D77BB3 /* JSQMessagesTests.xctest */,
+				885D592918CBD13D00D77BB3 /* SEO-V.app */,
+				885D594D18CBD13D00D77BB3 /* SEO-VTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -573,8 +573,8 @@
 				D63A9BF519D3264100C757B8 /* company logo */,
 				D6A0112219D31CF4001B81FB /* Icon */,
 				885D597418CBD2EB00D77BB3 /* InfoPlist.strings */,
-				885D596F18CBD2DC00D77BB3 /* JSQMessages-Info.plist */,
-				885D597018CBD2DC00D77BB3 /* JSQMessages-Prefix.pch */,
+				885D596F18CBD2DC00D77BB3 /* SEO-V-Info.plist */,
+				885D597018CBD2DC00D77BB3 /* SEO-V-Prefix.pch */,
 				885D597118CBD2DC00D77BB3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -597,7 +597,7 @@
 		885D595518CBD13D00D77BB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				885D595618CBD13D00D77BB3 /* JSQMessagesTests-Info.plist */,
+				885D595618CBD13D00D77BB3 /* SEO-VTests-Info.plist */,
 				885D595718CBD13D00D77BB3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -729,9 +729,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		885D592818CBD13D00D77BB3 /* JSQMessages */ = {
+		885D592818CBD13D00D77BB3 /* SEO-V */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 885D595E18CBD13D00D77BB3 /* Build configuration list for PBXNativeTarget "JSQMessages" */;
+			buildConfigurationList = 885D595E18CBD13D00D77BB3 /* Build configuration list for PBXNativeTarget "SEO-V" */;
 			buildPhases = (
 				5AF0226F94CF4DE999772A5D /* Check Pods Manifest.lock */,
 				885D592518CBD13D00D77BB3 /* Sources */,
@@ -743,14 +743,14 @@
 			);
 			dependencies = (
 			);
-			name = JSQMessages;
+			name = "SEO-V";
 			productName = JSQMessages;
-			productReference = 885D592918CBD13D00D77BB3 /* JSQMessages.app */;
+			productReference = 885D592918CBD13D00D77BB3 /* SEO-V.app */;
 			productType = "com.apple.product-type.application";
 		};
-		885D594C18CBD13D00D77BB3 /* JSQMessagesTests */ = {
+		885D594C18CBD13D00D77BB3 /* SEO-VTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 885D596118CBD13D00D77BB3 /* Build configuration list for PBXNativeTarget "JSQMessagesTests" */;
+			buildConfigurationList = 885D596118CBD13D00D77BB3 /* Build configuration list for PBXNativeTarget "SEO-VTests" */;
 			buildPhases = (
 				B8E405296CDE4D2F994679F1 /* Check Pods Manifest.lock */,
 				885D594918CBD13D00D77BB3 /* Sources */,
@@ -763,9 +763,9 @@
 			dependencies = (
 				885D595318CBD13D00D77BB3 /* PBXTargetDependency */,
 			);
-			name = JSQMessagesTests;
+			name = "SEO-VTests";
 			productName = JSQMessagesTests;
-			productReference = 885D594D18CBD13D00D77BB3 /* JSQMessagesTests.xctest */;
+			productReference = 885D594D18CBD13D00D77BB3 /* SEO-VTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -778,13 +778,16 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Hexed Bits";
 				TargetAttributes = {
+					885D592818CBD13D00D77BB3 = {
+						DevelopmentTeam = 462693YXF2;
+					};
 					885D594C18CBD13D00D77BB3 = {
 						DevelopmentTeam = 5VRJU68BZ5;
 						TestTargetID = 885D592818CBD13D00D77BB3;
 					};
 				};
 			};
-			buildConfigurationList = 885D592418CBD13D00D77BB3 /* Build configuration list for PBXProject "JSQMessages" */;
+			buildConfigurationList = 885D592418CBD13D00D77BB3 /* Build configuration list for PBXProject "SEO-V" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -797,8 +800,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				885D592818CBD13D00D77BB3 /* JSQMessages */,
-				885D594C18CBD13D00D77BB3 /* JSQMessagesTests */,
+				885D592818CBD13D00D77BB3 /* SEO-V */,
+				885D594C18CBD13D00D77BB3 /* SEO-VTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1022,7 +1025,7 @@
 /* Begin PBXTargetDependency section */
 		885D595318CBD13D00D77BB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 885D592818CBD13D00D77BB3 /* JSQMessages */;
+			target = 885D592818CBD13D00D77BB3 /* SEO-V */;
 			targetProxy = 885D595218CBD13D00D77BB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1071,8 +1074,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1112,8 +1115,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1137,14 +1140,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSQMessagesDemo/JSQMessages-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/JSQMessagesDemo/JSQMessages-Info.plist";
+				GCC_PREFIX_HEADER = "JSQMessagesDemo/SEO-V-Prefix.pch";
+				INFOPLIST_FILE = "JSQMessagesDemo/SEO-V-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "a605d66c-9f5d-44a3-8f0b-97f4aeef9488";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1155,14 +1158,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Sinclair (CV5NWHS2VN)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSQMessagesDemo/JSQMessages-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/JSQMessagesDemo/JSQMessages-Info.plist";
+				GCC_PREFIX_HEADER = "JSQMessagesDemo/SEO-V-Prefix.pch";
+				INFOPLIST_FILE = "JSQMessagesDemo/SEO-V-Info.plist";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "a605d66c-9f5d-44a3-8f0b-97f4aeef9488";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1185,8 +1188,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "JSQMessagesTests/JSQMessagesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "JSQMessagesTests/SEO-VTests-Info.plist";
+				PRODUCT_NAME = "SEO-VTests";
 				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1207,8 +1210,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSQMessagesDemo/JSQMessages-Prefix.pch";
-				INFOPLIST_FILE = "JSQMessagesTests/JSQMessagesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "JSQMessagesTests/SEO-VTests-Info.plist";
+				PRODUCT_NAME = "SEO-VTests";
 				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1218,7 +1221,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		885D592418CBD13D00D77BB3 /* Build configuration list for PBXProject "JSQMessages" */ = {
+		885D592418CBD13D00D77BB3 /* Build configuration list for PBXProject "SEO-V" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				885D595C18CBD13D00D77BB3 /* Debug */,
@@ -1227,7 +1230,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		885D595E18CBD13D00D77BB3 /* Build configuration list for PBXNativeTarget "JSQMessages" */ = {
+		885D595E18CBD13D00D77BB3 /* Build configuration list for PBXNativeTarget "SEO-V" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				885D595F18CBD13D00D77BB3 /* Debug */,
@@ -1236,7 +1239,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		885D596118CBD13D00D77BB3 /* Build configuration list for PBXNativeTarget "JSQMessagesTests" */ = {
+		885D596118CBD13D00D77BB3 /* Build configuration list for PBXNativeTarget "SEO-VTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				885D596218CBD13D00D77BB3 /* Debug */,

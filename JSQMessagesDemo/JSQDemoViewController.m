@@ -54,7 +54,7 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
-            NSLog(@"Successfully retrieved %d scores.", objects.count);
+            
             // Do something with the found objects
             for (PFObject *object in objects) {
                 [self.messages addObject:[[JSQMessage alloc] initWithText:object[@"Message"] sender:kJSQDemoAvatarNameJobs date: [object updatedAt]]];
@@ -62,7 +62,7 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
             
         } else {
             // Log details of the failure
-            NSLog(@"Error: %@ %@", error, [error userInfo]);
+            
         }
     }];
 
@@ -269,7 +269,7 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
 
 - (void)didPressAccessoryButton:(UIButton *)sender
 {
-    NSLog(@"Camera pressed!");
+
     /**
      *  Accessory button has no default functionality, yet.
      */
@@ -482,22 +482,22 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
 - (void)collectionView:(JSQMessagesCollectionView *)collectionView
                 header:(JSQMessagesLoadEarlierHeaderView *)headerView didTapLoadEarlierMessagesButton:(UIButton *)sender
 {
-    NSLog(@"Load earlier messages!");
+ 
 }
 
 - (void)collectionView:(JSQMessagesCollectionView *)collectionView didTapAvatarImageView:(UIImageView *)avatarImageView atIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"Tapped avatar!");
+ 
 }
 
 - (void)collectionView:(JSQMessagesCollectionView *)collectionView didTapMessageBubbleAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"Tapped message bubble!");
+ 
 }
 
 - (void)collectionView:(JSQMessagesCollectionView *)collectionView didTapCellAtIndexPath:(NSIndexPath *)indexPath touchLocation:(CGPoint)touchLocation
 {
-    NSLog(@"Tapped cell at %@!", NSStringFromCGPoint(touchLocation));
+    
 }
 
 @end

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83EC80338CCE495A88350172"
+               BlueprintIdentifier = "F1D6C336EF924001B8016DDF"
                BuildableName = "libPods.a"
                BlueprintName = "Pods"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -30,7 +30,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "885D592818CBD13D00D77BB3"
                BuildableName = "JSQMessages.app"
-               BlueprintName = "JSQMessages"
+               BlueprintName = "SEO-V"
                ReferencedContainer = "container:JSQMessages.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -72,7 +72,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "885D592818CBD13D00D77BB3"
             BuildableName = "JSQMessages.app"
-            BlueprintName = "JSQMessages"
+            BlueprintName = "SEO-V"
             ReferencedContainer = "container:JSQMessages.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -91,7 +91,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "885D592818CBD13D00D77BB3"
             BuildableName = "JSQMessages.app"
-            BlueprintName = "JSQMessages"
+            BlueprintName = "SEO-V"
             ReferencedContainer = "container:JSQMessages.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -109,7 +109,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "885D592818CBD13D00D77BB3"
             BuildableName = "JSQMessages.app"
-            BlueprintName = "JSQMessages"
+            BlueprintName = "SEO-V"
             ReferencedContainer = "container:JSQMessages.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -26,7 +26,7 @@
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
-            NSLog(@"Successfully retrieved %d scores.", objects.count);
+
             // Do something with the found objects
             for (PFObject *object in objects) {
                 Company *company = [[Company alloc]init];
@@ -40,7 +40,7 @@
             
         } else {
             // Log details of the failure
-            NSLog(@"Error: %@ %@", error, [error userInfo]);
+
         }
     }];
     
@@ -63,7 +63,6 @@
             NSIndexPath *index = [self.tableView indexPathForCell:sender];
             Company *selectedCompany = self.companies[index.row];
             nextViewController.company = selectedCompany;
-            NSLog(@"%@", nextViewController.company);
             [self.tableView deselectRowAtIndexPath:index animated:NO];
         }
         
