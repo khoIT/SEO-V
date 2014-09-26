@@ -46,25 +46,7 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
 //                     [[JSQMessage alloc] initWithText:@"Oh, and there's sweet documentation." sender:self.sender date:[NSDate date]],
 //                     nil];
 //    
-    //load messages from parse
-    
-    PFQuery *query = [PFQuery queryWithClassName:@"Announcement"];
-    [query orderByAscending:@"seo_id"];
-    [query setLimit: 1000];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if (!error) {
-            // The find succeeded.
-            
-            // Do something with the found objects
-            for (PFObject *object in objects) {
-                [self.messages addObject:[[JSQMessage alloc] initWithText:object[@"Message"] sender:kJSQDemoAvatarNameJobs date: [object updatedAt]]];
-            }
-            
-        } else {
-            // Log details of the failure
-            
-        }
-    }];
+    [self loadData];
 
 
     /**
@@ -117,7 +99,30 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
     }
 }
 
-
+- (void)loadData{
+    //load messages from parse
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"Announcement"];
+    [query orderByAscending:@"seo_id"];
+    [query setLimit: 1000];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            // The find succeeded.
+            
+            // Do something with the found objects
+            for (PFObject *object in objects) {
+                if (object[@"seo_id"]){
+                    if ([object[@"seo_id"] integerValue] > [self.messages count])
+                        [self.messages addObject:[[JSQMessage alloc] initWithText:object[@"Message"] sender:kJSQDemoAvatarNameJobs date: [object updatedAt]]];
+                }
+            }
+            
+        } else {
+            // Log details of the failure
+            
+        }
+    }];
+}
 
 #pragma mark - View lifecycle
 
@@ -210,7 +215,7 @@ static NSString * const kJSQDemoAvatarNameWoz = @"Steve Wozniak";
      *  Scroll to actually view the indicator
      */
     [self scrollToBottomAnimated:YES];
-    
+    [self loadData];
     
     JSQMessage *copyMessage = [[self.messages lastObject] copy];
     
